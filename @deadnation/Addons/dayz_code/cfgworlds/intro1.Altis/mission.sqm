@@ -1,0 +1,249 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_map_altis",
+		"A3_Weapons_F_Rifles_MX",
+		"A3_Weapons_F_Pistols_P07",
+		"A3_weapons_f"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_map_altis"
+	};
+	randomSeed=8547256;
+	class Intel
+	{
+		startWeather=0.25;
+		startWind=0.099999994;
+		forecastWeather=0.25;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		year=2012;
+		month=6;
+		day=16;
+		hour=18;
+		minute=45;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14209.528,74.055901,21215.029};
+					id=0;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_altis",
+		"deadnation",
+		"A3_Structures_F_Civ_Camping",
+		"A3_Structures_F_EPB_Civ_Accessories",
+		"dayz_code"
+	};
+	addOnsAuto[]=
+	{
+		"deadnation",
+		"A3_Structures_F_Civ_Camping",
+		"A3_Structures_F_EPB_Civ_Accessories",
+		"dayz_code",
+		"a3_map_altis"
+	};
+	randomSeed=14332625;
+	class Intel
+	{
+		startWeather=0.099999994;
+		startWind=0.099999994;
+		forecastWeather=0.099999994;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		year=2012;
+		month=6;
+		hour=20;
+		minute=45;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14626.192,62.15934,21689.615};
+					id=0;
+					side="WEST";
+					vehicle="DN_survivor";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					text="bobo";
+					init="bobo switchmove ""AmovPsitMstpSnonWnonDnon_ground"";";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=12;
+		class Item0
+		{
+			position[]={14625.583,62.535877,21691.574};
+			id=1;
+			side="EMPTY";
+			vehicle="Campfire_burning_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={14623.337,62.998665,21693.547};
+			id=2;
+			side="EMPTY";
+			vehicle="Land_Camping_Light_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={14625.167,62.945599,21693.885};
+			id=3;
+			side="EMPTY";
+			vehicle="Land_Ground_sheet_yellow_F";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={14628.104,62.638447,21693.727};
+			id=4;
+			side="EMPTY";
+			vehicle="Land_TentDome_F";
+			skill=0.60000002;
+		};
+		class Item4
+		{
+			position[]={14622.298,63.409374,21695.76};
+			azimut=60.90947;
+			id=5;
+			side="EMPTY";
+			vehicle="Land_WoodPile_large_F";
+			skill=0.60000002;
+		};
+		class Item5
+		{
+			position[]={14624.896,63.495266,21697.184};
+			azimut=60.90947;
+			id=6;
+			side="EMPTY";
+			vehicle="Land_WoodPile_large_F";
+			skill=0.60000002;
+		};
+		class Item6
+		{
+			position[]={14627.651,63.429337,21698.674};
+			azimut=60.90947;
+			id=7;
+			side="EMPTY";
+			vehicle="Land_WoodPile_large_F";
+			skill=0.60000002;
+		};
+		class Item7
+		{
+			position[]={14630.34,63.151699,21697.727};
+			azimut=149.54636;
+			id=8;
+			side="EMPTY";
+			vehicle="Land_WoodPile_large_F";
+			skill=0.60000002;
+		};
+		class Item8
+		{
+			position[]={14631.854,62.600143,21695.172};
+			azimut=149.53741;
+			id=9;
+			side="EMPTY";
+			vehicle="Land_WoodPile_large_F";
+			skill=0.60000002;
+		};
+		class Item9
+		{
+			position[]={14632.396,62.140705,21692.848};
+			azimut=60.90947;
+			id=10;
+			side="EMPTY";
+			vehicle="Land_WoodPile_large_F";
+			skill=0.60000002;
+		};
+		class Item10
+		{
+			position[]={14629.845,62.088074,21691.332};
+			azimut=60.90947;
+			id=11;
+			side="EMPTY";
+			vehicle="Land_WoodPile_large_F";
+			skill=0.60000002;
+		};
+		class Item11
+		{
+			position[]={14614.379,63.797428,21695.131};
+			azimut=140;
+			id=12;
+			side="EMPTY";
+			vehicle="DN_Offroad_01_F";
+			leader=1;
+			skill=0.60000002;
+		};
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=11944894;
+	class Intel
+	{
+		startWeather=0;
+		startWind=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		year=2012;
+		month=6;
+		day=16;
+		hour=12;
+		minute=0;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
